@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 h1 {
   text-align: center;
 }
@@ -20,6 +23,43 @@ img {
   width: 150px;
 }
 
+header{
+  padding: 30px;
+  background-color: #800020;
+  color: white;
+}
 body {
-  background-color: #a2a2d0;
+  background-color: #ffc1cc;
+}
+
+.details {
+  float: left;
+  width: 20%;
+  background-color: #cb4154;
+  color: white;
+  padding: 20px;
+  height: 530px;
+}
+
+.places {
+  float: left;
+  padding: 20px;
+  width: 80%;
+}
+
+.sorry {
+  opacity: .5;
+}
+
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+  background-color: #800020;
+  padding: 10px;
+  text-align: center;
+  color: white;
 }
